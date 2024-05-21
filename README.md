@@ -118,15 +118,15 @@ Boa sorte com o desafio! Estamos ansiosos para ver sua solução.
 
 ## Implentação:
 
-python -m venv venv
-source venv/bin/activate  # No Windows, use `venv\Scripts\activate`
-pip install -r requirements.txt
-mv .env.example .env
-python manage.py makemigrations
-python manage.py migrate
-python manage.py runserver
+``python -m venv venv``
+``source venv/bin/activate``  
+``pip install -r requirements.txt``
+``mv .env.example .env``
+``python manage.py makemigrations``
+``python manage.py migrate``
+``python manage.py runserver``
 
-https://www.postman.com/leonardofguedes/workspace/khipo/overview
+- https://www.postman.com/leonardofguedes/workspace/khipo/overview
 
 
 Criando o Primeiro Usuário
