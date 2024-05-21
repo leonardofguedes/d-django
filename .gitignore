@@ -1,0 +1,59 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media
+/static
+.env
+
+# Environments
+venv/
+env/
+ENV/
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+
+# macOS
+.DS_Store
+
+# PyCharm
+*.idea/
+*.iml
+*.iws
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual Environment
+.Python
+*.pyo
+*.pyd
+*.pyd
+*.pyc
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox
+nosetests.xml
+coverage.xml
+*.cover
+
+# Test files
+test-results/
+
+# MyPy
+.mypy_cache/
+
+# Pytest
+.pytest_cache/
