@@ -116,7 +116,7 @@ Desenvolver uma API para gerenciar um sistema de tarefas e projetos, permitindo 
 
 Boa sorte com o desafio! Estamos ansiosos para ver sua solução.
 
-# Implentação:
+# Implementação:
 ```
     Dados para criação do banco de dados no env.example
 ```
