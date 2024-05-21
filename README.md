@@ -151,12 +151,10 @@ Boa sorte com o desafio! Estamos ansiosos para ver sua solução.
 - https://www.postman.com/leonardofguedes/workspace/khipo/overview
 
 
-Criando o Primeiro Usuário
-Para criar o primeiro usuário na sua aplicação, siga os passos abaixo utilizando o Postman:
+##Para criar o primeiro usuário na sua aplicação, siga os passos abaixo utilizando o Postman:
 
-Passo 1: Configurar o Postman
+###Passo 1: Configurar o Postman
 Abrir o Postman.
-
 Criar uma nova requisição:
 
 Método: POST
@@ -170,28 +168,32 @@ Selecionar raw e definir o tipo como JSON.
 Adicionar o seguinte JSON no corpo da requisição para criar um novo usuário especial (admin):
 json
 Copiar código
+```
 {
     "username": "admin",
     "email": "admin@example.com",
     "nome": "Administrador",
     "password": "senha_segura"
 }
-Passo 2: Enviar a Requisição
+```
+
+###Passo 2: Enviar a Requisição
 Clique no botão Send para enviar a requisição.
 
 Verificar a resposta:
 
 Se o usuário for criado com sucesso, você receberá uma resposta JSON com os detalhes do usuário criado.
 Exemplo de resposta:
-json
-Copiar código
+```
 {
     "id": 1,
     "username": "admin",
     "email": "admin@example.com",
     "nome": "Administrador"
 }
-Passo 3: Utilizar o Usuário Criado para Autenticação
+```
+
+###Passo 3: Utilizar o Usuário Criado para Autenticação
 Após criar o usuário admin, você pode utilizá-lo para autenticar-se e realizar outras operações na sua API.
 
 Obter um token JWT:
@@ -201,12 +203,12 @@ URL: http://localhost:8000/api/token/
 Headers:
 Content-Type: application/json
 Body:
-json
-Copiar código
+```
 {
     "username": "admin",
     "password": "senha_segura"
 }
+```
 Usar o token JWT para autenticação em outras requisições:
 
 Inclua o token JWT no cabeçalho Authorization das suas requisições:
@@ -222,15 +224,14 @@ Headers:
 Content-Type: application/json
 Authorization: Bearer <seu_token_jwt>
 Body:
-json
-Copiar código
+```
 {
     "username": "novo_usuario",
     "email": "novo_usuario@example.com",
     "nome": "Novo Usuário",
     "password": "senha_segura"
 }
-Enviar a requisição e verificar a resposta:
-
-Se o usuário for criado com sucesso, você receberá uma resposta JSON com os detalhes do novo usuário.
-Seguindo esses passos, você pode criar o primeiro usuário especial e utilizar a autenticação JWT para gerenciar outros usuários e recursos na sua API.
+```
+- Enviar a requisição e verificar a resposta:
+- Se o usuário for criado com sucesso, você receberá uma resposta JSON com os detalhes do novo usuário.
+- Seguindo esses passos, você pode criar o primeiro usuário especial e utilizar a autenticação JWT para gerenciar outros usuários e recursos na sua API.
