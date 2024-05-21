@@ -151,9 +151,9 @@ Boa sorte com o desafio! Estamos ansiosos para ver sua solução.
 - https://www.postman.com/leonardofguedes/workspace/khipo/overview
 
 
-##Para criar o primeiro usuário na sua aplicação, siga os passos abaixo utilizando o Postman:
+## Para criar o primeiro usuário na sua aplicação, siga os passos abaixo utilizando o Postman:
 
-###Passo 1: Configurar o Postman
+### Passo 1: Configurar o Postman
 Abrir o Postman.
 Criar uma nova requisição:
 
@@ -177,7 +177,7 @@ Copiar código
 }
 ```
 
-###Passo 2: Enviar a Requisição
+### Passo 2: Enviar a Requisição
 Clique no botão Send para enviar a requisição.
 
 Verificar a resposta:
@@ -193,7 +193,7 @@ Exemplo de resposta:
 }
 ```
 
-###Passo 3: Utilizar o Usuário Criado para Autenticação
+### Passo 3: Utilizar o Usuário Criado para Autenticação
 Após criar o usuário admin, você pode utilizá-lo para autenticar-se e realizar outras operações na sua API.
 
 Obter um token JWT:
